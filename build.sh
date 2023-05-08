@@ -22,5 +22,5 @@ docker build -t cc-ivr:${version} --target cc-ivr .
 echoGreen "build docker image cc-ivr:${version} success!"
 
 #容器重启
-docker-compose down
-docker-compose up -d
+#docker-compose down
+#docker-compose up -d
